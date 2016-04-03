@@ -7,7 +7,7 @@ permalink: /posts/:title
 auto: false
 rdiscount:
   extensions: [smart]
-url: http://thehackerwithin.github.com/wisconsin
+url: http://thehackerwithin.github.com/iiasa
 name: Hacker Within
 chapter: IIASA
 description: An initial blog and site for THW at IIASA
