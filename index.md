@@ -16,6 +16,11 @@ title: About
 </li>
 </ul>
 
+## New?
+
+0. See the [upcoming topic list](upcoming)
+0. Check out the [calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna)
+0. Sign up for the [mailing list](https://groups.google.com/forum/#!forum/thehackerwithin-iiasa)
 
 ## What:
 
@@ -33,17 +38,11 @@ bringing up a computational problem you're having.
 Anyone interested in scientific computing, data science, or software development
 best practices is welcome to come to our meetings.
 
-
 ## When:
 
 Meetings are held in the Givishiani Room from 12-1. These are casual, brown-bag
 sessions where it is encouraged to hack along with the presenter and each your
 lunch (perhaps not at the same time!).
-
-See the [upcoming topic list](upcoming) or the
-[calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna)
-for the next topic. To keep up with the meetings,
-[sign up for the mailing list](TODO, make mailing list).
 
 ## Why:
 
