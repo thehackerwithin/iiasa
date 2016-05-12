@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-  {% include base.html %}
   <meta charset="utf-8">
   <title>
     {% if page.title %}
@@ -13,16 +12,16 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="description" content="{{ site.description }}" />
 
-  <link rel="alternate" type="application/rss+xml" href="{{ base }}/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/atom.xml" />
 
-  <link rel="stylesheet" href="{{ base }}/css/base.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="{{ base }}/css/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="{{ base }}/css/syntax.css" type="text/css" media="screen, projection" />
-  <link media="only screen and (max-device-width: 480px)" href="{{ base }}/css/iphone.css" type="text/css" rel="stylesheet" />
-  <link media="only screen and (device-width: 768px)" href="{{ base }}/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" media="screen, projection" />
+  <link media="only screen and (max-device-width: 480px)" href="{{ site.baseurl }}/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="{{ site.baseurl }}/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" href="{{ base }}/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" href="{{ base }}/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.ico">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="/js/application.js"></script>
 </head>
@@ -34,7 +33,7 @@
     </a>
 
     <section class="name">
-      <a href="{{ base }}/">
+      <a href="{{ site.baseurl }}/">
         <span id="lname">The</span>
         <span id="lname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span>
@@ -43,20 +42,20 @@
     </section>
 
     <section class="meta">
-      <a href="{{ site.github_repository_url }}" target="_blank"><img src="{{ base }}/images/github.png"/></a>
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ base }}/images/twitter.png"></a>
-      <a href="{{ base }}/atom.xml" target="_blank"><img src="{{ base }}/images/rss.png" border="0"/></a>
+      <a href="{{ site.github_repository_url }}" target="_blank"><img src="{{ site.baseurl }}/images/github.png"/></a>
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ site.baseurl }}/images/twitter.png"></a>
+      <a href="{{ site.baseurl }}/atom.xml" target="_blank"><img src="{{ site.baseurl }}/images/rss.png" border="0"/></a>
       <br>
-      <a href="https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna" target=_blank><img src="{{ base }}/images/calendar.png"/></a>
-      <a href="https://groups.google.com/forum/#!forum/thehackerwithin-iiasa" target="_blank"><img src="{{ base }}/images/email.png"/></a>
+      <a href="https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna" target=_blank><img src="{{ site.baseurl }}/images/calendar.png"/></a>
+      <a href="https://groups.google.com/forum/#!forum/thehackerwithin-iiasa" target="_blank"><img src="{{ site.baseurl }}/images/email.png"/></a>
     </section>
 
     <section class="sections">
       <ul>
-        <li><a href="{{ base }}/">about</a></li>
-        <li><a href="{{ base }}/upcoming.html">upcoming</a></li>
-        <li><a href="{{ base }}/previous.html">previous</a></li>
-        <li><a href="{{ base }}/tags.html">tags</a></li>
+        <li><a href="{{ site.baseurl }}/">about</a></li>
+        <li><a href="{{ site.baseurl }}/upcoming.html">upcoming</a></li>
+        <li><a href="{{ site.baseurl }}/previous.html">previous</a></li>
+        <li><a href="{{ site.baseurl }}/tags.html">tags</a></li>
       </ul>
     </section>
   </section>

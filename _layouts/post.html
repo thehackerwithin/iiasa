@@ -4,7 +4,7 @@ layout: layout
 
 <section class="content">
   <h1>
-    <a href="{{ base }}{{ page.url }}">{{ page.title }}</a>
+    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
   </h1>
 
   <section class="byline">
@@ -37,7 +37,7 @@ layout: layout
      <div id="disqus_thread"></div>
      <script type="text/javascript">
         var disqus_shortname = '{{ site.disqus_username }}';
-        var disqus_url = '{{ base }}';
+        var disqus_url = '{{ site.baseurl }}';
         var disqus_title = '{{ page.title | escape }}';
         var disqus_identifier = '{{ page.date | date_to_xmlschema }}';
         /* * * DON'T EDIT BELOW THIS LINE * * */

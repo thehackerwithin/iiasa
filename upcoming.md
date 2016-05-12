@@ -18,7 +18,7 @@ scheduled for upcoming talks
 	{% if postStartDate >= curDate %}
 	<li>
 	<span>{{ post.date | date: "%B %e, %Y" }}</span>
-	<a href="{{ base }}{{ post.url }}">
+	<a href="{{ site.baseurl }}{{ post.url }}">
 	{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
 	</a></li>
     {% endif %}
