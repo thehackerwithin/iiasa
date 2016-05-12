@@ -22,7 +22,7 @@ semester.
 
 Once you know you'll be speaking on a topic, please add the time and place to
 the
-[calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna)
+[calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna).
 
 ### Set Up
 
