@@ -2,7 +2,7 @@
 layout: post
 title: Second Meeting
 author: Matthew Gidden
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
