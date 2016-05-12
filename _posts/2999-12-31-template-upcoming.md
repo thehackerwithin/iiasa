@@ -2,7 +2,6 @@
 layout: post
 title: Bleeding Edge Stuff
 author: New Hat
-category: upcoming
 tags: meeting 
 ---
 

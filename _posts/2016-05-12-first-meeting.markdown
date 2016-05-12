@@ -2,7 +2,6 @@
 layout: post
 title: First Meeting
 author: Matthew Gidden
-category: posts
 tags: meeting
 ---
 
