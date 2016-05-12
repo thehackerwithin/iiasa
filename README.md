@@ -20,6 +20,10 @@ So, if you have a topic you'd like to talk about, please suggest it over the
 listhost before the semester starts or show up to the first meeting of the 
 semester.
 
+Once you know you'll be speaking on a topic, please add the time and place to
+the
+[calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna)
+
 ### Set Up
 
 
