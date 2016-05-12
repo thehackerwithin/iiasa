@@ -9,10 +9,10 @@ title: About
 
 <ul class="listing">
 <li>
-<span>Spring 2016</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Spring 2016</span><a href="{{ base }}/upcoming.html">Upcoming Topics</a>
 </li>
 <li>
-<span>2016-Present</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<span>2016-Present</span><a href="{{ base }}/previous.html">Previous Topics</a>
 </li>
 </ul>
 
