@@ -103,7 +103,7 @@ This is very similar to creating a post:
 #### Build the site locally
 
 - Install Jekyll: `gem install jekyll`
-- Run the jekyll server: `jekyll --server`
+- Run the jekyll server: `jekyll --server --baseurl=`
 
 You should have a server up and running locally at <http://localhost:4000>.
 
