@@ -8,14 +8,18 @@ title: Previous Topics
 Previous Topics
 ===============
 
+
 <ul class="listing">
-{% assign past_posts = (site.posts | where: "category" , "posts") %}
-{% for post in past_posts %}
-<li>
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
-<a href="{{ base }}{{ post.url }}">
-{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
-</a></li>
+{% assign curDate = site.time | date: '%s' %}
+{% for post in site.posts %}
+    {% assign postStartDate = post.date | date: '%s' %}
+	{% if postStartDate < curDate %}
+	<li>
+	<span>{{ post.date | date: "%B %e, %Y" }}</span>
+	<a href="{{ base }}{{ post.url }}">
+	{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
+	</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
 

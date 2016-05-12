@@ -18,13 +18,16 @@ charge of that topic to see if they would like to collaborate.
 
 
 <ul class="listing">
-{% assign upcoming = (site.posts | where: "category", "upcoming") %}
-{% for post in upcoming reversed %}
-<li>
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
-<a href="{{ base }}{{ post.url }}">
-{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
-</a></li>
+{% assign curDate = site.time | date: '%s' %}
+{% for post in site.posts reversed %}
+    {% assign postStartDate = post.date | date: '%s' %}
+	{% if postStartDate >= curDate %}
+	<li>
+	<span>{{ post.date | date: "%B %e, %Y" }}</span>
+	<a href="{{ base }}{{ post.url }}">
+	{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
+	</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
 
