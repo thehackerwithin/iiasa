@@ -31,7 +31,17 @@ will likely focus on workflow tools and software writing best practices such as
 
 These are the topics that were suggested for future meetings at this meeting:
 
-- none yet!
+- git & github
+- gis with rasterio and fiona
+- qgis/arcgis & python
+- how to make a webapp
+- d3 and other visualization tools
+- database management and workflows
+- how to make a mobile app
+- java & gams
+- gams
+- R, ggplot, etc.
+- integrating file grabbing and updating from external datasources
 
 # What to Expect at a Meeting
 
