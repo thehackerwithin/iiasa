@@ -13,7 +13,7 @@ Previous Topics
 {% for post in past_posts %}
 <li>
 <span>{{ post.date | date: "%B %e, %Y" }}</span>
-<a href="{{ site.url }}{{ post.url }}">
+<a href="{{ base }}{{ post.url }}">
 {{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
 </a></li>
 {% endfor %}
