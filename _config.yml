@@ -8,7 +8,7 @@ auto: false
 rdiscount:
   extensions: [smart]
 future: true
-url: http://thehackerwithin.github.com/iiasa
+baseurl: http://thehackerwithin.github.com/iiasa
 github_repository_url: http://github.com/thehackerwithin/iiasa
 name: Hacker Within
 chapter: IIASA
