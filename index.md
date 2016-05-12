@@ -21,6 +21,7 @@ title: About
 0. See the [upcoming topic list](upcoming)
 0. Check out the [calendar](https://calendar.google.com/calendar/embed?src=4trlf4mtiknlbnu4vq7fno0gmg%40group.calendar.google.com&ctz=Europe/Vienna)
 0. Sign up for the [mailing list](https://groups.google.com/forum/#!forum/thehackerwithin-iiasa)
+0. Check out the site's [github repo]({{ site.github_repository_url }})
 
 ## What:
 

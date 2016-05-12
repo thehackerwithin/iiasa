@@ -9,6 +9,7 @@ rdiscount:
   extensions: [smart]
 future: true
 url: http://thehackerwithin.github.com/iiasa
+github_repository_url: http://github.com/thehackerwithin/iiasa
 name: Hacker Within
 chapter: IIASA
 description: An initial blog and site for THW at IIASA

@@ -34,7 +34,7 @@
     </a>
 
     <section class="name">
-      <a href="{{ site.url }}/">
+      <a href="{{ base }}/">
         <span id="lname">The</span>
         <span id="lname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span>
@@ -43,7 +43,7 @@
     </section>
 
     <section class="meta">
-      <a href="{{ site.github.repository_url }}" target="_blank"><img src="{{ base }}/images/github.png"/></a>
+      <a href="{{ site.github_repository_url }}" target="_blank"><img src="{{ base }}/images/github.png"/></a>
       <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ base }}/images/twitter.png"></a>
       <a href="{{ base }}/atom.xml" target="_blank"><img src="{{ base }}/images/rss.png" border="0"/></a>
       <br>
