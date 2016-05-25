@@ -41,6 +41,7 @@ These are the topics that were suggested for future meetings at this meeting:
 - gams
 - R, ggplot, etc.
 - integrating file grabbing and updating from external datasources
+- updating the website
 
 # What to Expect at a Meeting
 
