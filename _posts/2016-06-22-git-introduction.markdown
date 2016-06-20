@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to sourcecontrol with git
+title: Introduction to Version Control with Git and Github
 author: Mathias Karner
 tags: meeting 
 ---
