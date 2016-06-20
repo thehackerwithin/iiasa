@@ -7,11 +7,11 @@ tags: meeting
 
 ## Location
 
-IIASA Laxenburg, Gvishiani Room
+IIASA Laxenburg, Environment Room
 
 ## Time
 
-June 16th 2016, 12:30 PM
+June 23rd 2016, 12:30 PM
 
 ## Attending
 
