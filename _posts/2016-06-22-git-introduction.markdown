@@ -24,14 +24,7 @@ Git is a decentralised version control system that is widely used for software d
 
 ## Resources
 
-All material will be made available after the meeting.
-
-Code examples and the presentation will be available [here][code].
-
 You can download the presentation from [here](https://drive.google.com/file/d/0B5TVk95JbBESTHBmTnNnWXIydzQ/view?usp=sharing).
-
-
-[code]: {{ site.github.repository_url }}/tree/master/sourcecontrol-git
 
 
 ## Useful links
